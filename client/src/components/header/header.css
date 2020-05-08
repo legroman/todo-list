@@ -1,0 +1,42 @@
+.header{
+    position: relative;
+    text-align: center;
+    color: #1a746b;
+    margin-top: 0px;
+}
+
+.logo-img{
+    width: 200px;
+    margin-top: -60px;
+    margin-bottom: -90px;
+}
+
+.logo{
+    margin-bottom: 0px;
+}
+
+.logout{
+    margin-left: 90%;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+
+/*.logout img {*/
+/*    -webkit-transition: all 1s ease;*/
+/*    -moz-transition: all 1s ease;*/
+/*    -o-transition: all 1s ease;*/
+/*    transition: all 1s ease;*/
+/*}*/
+
+/*.logout img:hover {*/
+/*    -webkit-filter: invert(70%);*/
+/*}*/
+
+
+
+.logout:hover {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}

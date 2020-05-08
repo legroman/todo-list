@@ -1,0 +1,73 @@
+#panell{
+    margin-top: 100px;
+    padding: 0px;
+}
+#loginbtn{
+    /*!*float: right;*!*/
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 30%;
+    width: 40%;
+    border-radius: 8px;
+    font-weight: bold;
+
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    border: 1px solid white;
+    padding: 0 1rem;
+
+}
+#title{
+    background-color: #2bbbad;
+    color: white;
+    padding: 8px;
+    margin-top: 0px;
+    text-align: center;
+}
+form{
+    padding:0px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+#username,#password{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#checkbox{
+    margin-left: 30px;
+}
+
+.create-account{
+    margin-left: 65px;
+    color: #2bbbad;
+    text-decoration: none;
+}
+
+.auth{
+    position: relative;
+    /*padding-top: 15%;*/
+}
+
+.inner{
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.a{
+    text-decoration: none!important;
+    color: #2bbbad;
+}
+
+.new-account{
+    text-align: center;
+    position: relative;
+}
+
+.err{
+    color: red!important;
+    border-bottom-color: red!important;
+}

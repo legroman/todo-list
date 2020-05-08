@@ -1,0 +1,12 @@
+.pagination {
+    display: inline-block;
+}
+
+.pagination li a {
+    text-decoration: none;
+}
+
+.wrapper{
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "my-todo-list",
+  "version": "1.0.0",
+  "description": "todo-list (mern stack)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "todo-list",
+    "mern"
+  ],
+  "author": "Roman Legun <legromant@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "materialize-css": "^1.0.0",
+    "mongoose": "^5.9.7",
+    "react-modal": "^3.11.2",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
